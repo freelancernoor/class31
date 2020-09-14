@@ -1,0 +1,172 @@
+body, h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans',
+    sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.Slider-header{
+    background: url(./img/mbr-10.jpg) center center no-repeat ;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.Slider-header ::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.096);
+    z-index: -1;
+
+}
+
+.nurul-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nurul-header span {
+
+    display: inline-block;
+    height: 54px;
+    width: 43px;
+    text-align: center;
+    color: #fff;
+    background: #6278DF;
+    font-size: 35px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+}
+.slider-caption h2{
+    margin-bottom: 30px;
+}
+.slider-caption h4 {
+    margin-bottom: 30px;
+}
+.slider-caption.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border-radius: 0.3rem;}
+
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px;
+    margin: 2px 0 0 0;
+}
+
+.slider-caption .btn:hover{
+    background: #fff;
+    color: #6278DF;
+}
+
+.about-section {
+    background: #F7F9FF;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-section .h1,
+h1 {
+    font-size: 2.5rem;
+    padding: 89px 0 0 0;
+}
+.feature-header{
+    margin: 20px 0 60px 0;
+}
+.feature-header h1{
+    font-size: 60px;
+}
+.feature-item {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+
+}
+.feature-item img {
+    height: 235px;
+    width: auto;
+}
+.feature-item .heart {
+    text-align: center;
+    font-size: 23px;
+    padding: 31px 0 0 0;
+}
+.feature-item .spann {
+    font-size: 14px;
+}
+
+.profolio-item a:hover{
+    background-color:rgba(98, 120, 223, .7);
+}
+
+.default-bgc{
+    background-color:#ebebeb;
+}
+
+/* pricing table  */
+.pricing-item{
+ background-color: #fff;
+ padding: 30px;
+ margin: 0 20px;
+ border-radius: 10px;
+}
+.pricing-item h1 {
+    padding: 0 0 0 30px;
+}
+.pricing-item h5 {
+    font-size: 24px;
+padding: 0 0 0 30px;
+
+}
+.pricing-item ul {
+    list-style: none;
+    font-size: 21px;
+}
+.pricing-item ul li{
+    margin: 20px 0;
+
+}
+.pricing-item ul li span{
+    color: #6278DF;
+    padding: 0 5px;
+}
+
+.testimonial-section{
+    padding: 20px 0;
+}
+.testimonial-item span {
+    font-size: 100px;
+    opacity: .1;
+}
+
+.user {
+    width: 200px;
+    margin: auto;
+}
+.user img {
+    width: 88px;
+}
+.user-details {
+    position: relative;
+    top: 21px;
+}
+.user-details h3 {
+    font-size: 18px;
+}
+.user-details p{
+    font-size: 14px;
+}
+.about-section .card {
+    margin: 59px 0 0 0;
+}
+.about-shadow{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.about-section .card img {
+    width: 113px;
+    margin: -50px 0 17px 17px;
+}
